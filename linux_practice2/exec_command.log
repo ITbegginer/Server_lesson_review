@@ -1,0 +1,183 @@
+    1  docker stop centos7
+    2  dir /
+    3  ls /
+    4  ls /usr
+    5  pwd
+    6  cd /root
+    7  pwd
+    8  cd /usr
+    9  pwd
+   10  cd/home
+   11  cd /home
+   12  pwd
+   13  mkdir test1
+   14  ls
+   15  mkdir -p test2/test3
+   16  ls test2
+   17  pwd
+   18  touch test1/index.php
+   19  ls test1
+   20  cd /home/test1 && ls
+   21  cp index.php copy.php && ls
+   22  cd /home && cp -r test1 test4 && ls test4
+   23  pwd
+   24  ls
+   25  mv test2/test3 test3
+   26  ls
+   27  mv test4 test1_copy
+   28  ls
+   29  move test3 test2/tests
+   30  move test3 test2/test3
+   31  mv test3 test2/tests
+   32  ls test2
+   33  mv test2/tests test3 && ls
+   34  ls test1
+   35  rm test1/copy.php
+   36  ls test1
+   37  rm test3
+   38  rm  -r test3
+   39  ls
+   40  docker stop centos7
+   41  ls test1_xopy
+   42  ls test1_copy
+   43  rm test1_copy/*.php
+   44  ls test1_copy
+   45  �cat readme.md
+   46  cat README.md
+   47  ls
+   48  echo '#Hello World' > README.md
+   49  cat README.md
+   50  echo '# Server Lesson' > README.md
+   51  cat README.md
+   52  cd /
+   53  cat README.md
+   54  cd /home
+   55  echo 'Linux Practice' >> README.md
+   56  echo '-----------------' >> README.md
+   57  cat README.md
+   58  ls
+   59  vi README.md
+   60  cat README.md
+   61  vi README.md
+   62  vi a
+   63  vi README.md
+   64  cat README.md
+   65  vi README.md
+   66  cat README.md
+   67  cd/root
+   68  cd /
+   69  cd /root
+   70  pwd
+   71  mkdir server_lesson &&cd server_lesson
+   72  yum update -y && yum -y install git
+   73  git version
+   74  git init
+   75  touch first.txt
+   76  git status
+   77  git add first.txt
+   78  git status
+   79  git commit -m "first commit"
+   80  git status
+   81  mkdir -p linux_practice1/public && cd linux_practice1/public
+   82  pwd
+   83  touch index.php
+   84  ls
+   85  pwd
+   86  cp index.php index_bk.php
+   87  ls
+   88  cd ../
+   89  pwd
+   90  cp -r public tmp
+   91  ls
+   92  ls tmp
+   93  rm tmp/index_bk.php
+   94  ls
+   95  ls tmp
+   96  pwd
+   97  cd ../
+   98  touch README.md
+   99  ls
+  100  vi README.md
+  101  cat README.md
+  102  pwd
+  103  mkdir -p linux_practice2/documents && cd linux_practice2/doucuments
+  104  mkdir -p linux_practice2/documents && cd linux_practice2/documents
+  105  pwd
+  106  touch gizumo{01..50}.md
+  107  ls
+  108  cd ../
+  109  mkdir
+  110  git add .
+  111  git練習問題2-2まで"
+  112  ;
+  113  git status
+  114  cd /
+  115  git add .
+  116  cd root/server_lesson
+  117  git add .
+  118  git status
+  119  git commit -m "練習問題2-2まで"
+  120  �git status
+  121  git statsu
+  122  git status
+  123  git commit -m '練習問題2-2まで'
+  124  exit
+  125  �cd /root/server_lesson
+  126  �cd /root
+  127  cd root
+  128  pwd
+  129  lss
+  130  ls
+  131  cd server_lessom
+  132  cd server_lesson
+  133  git config --global user.email eva.26011@gmail.com
+  134  git config --global user.name ITbegginer
+  135  git commit -m '練習問題2-2まで'
+  136  �git status
+  137  git status
+  138  git log
+  139  ls
+  140  cd linux_practice2
+  141  mkdir trash
+  142  ls
+  143  mv documents/gizumo{20..40}.md trash
+  144  ls tradh
+  145  ls trash
+  146  ls documents
+  147  touch .gitignore
+  148  ls
+  149  ls -a
+  150  cd .gitignore
+  151  vi .gitignore
+  152  git rm -catched gizumo{20..29}.md
+  153  git rm --catched gizumo{20..29}.md
+  154  git rm --cached gizumo{20..29}.md
+  155  git rm --cached gizumo20.md
+  156  git rm --cached trash/gizumo{20..29}.md
+  157  cd trash
+  158  git rm --cached gizumo{20..29}.md
+  159  ls
+  160  cd /root/server_lesson
+  161  git status
+  162  git add .
+  163  git stasus
+  164  git status
+  165  git commit -m '2-4tochu'
+  166  git status
+  167   �git add .
+  168  git add .
+  169  git add -A
+  170  git status
+  171  git add .
+  172  git commit  -m '2-4tochu'
+  173  git status
+  174  git log
+  175  ls
+  176  cd linux_practice2
+  177  ls
+  178  cd trash
+  179  git rm --cached gizumo{20..29}.md
+  180  cd ../
+  181  vi .gitignore
+  182  cat .gitignore
+  183  history 300 > exec_command.log
